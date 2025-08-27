@@ -1,12 +1,50 @@
-# React + Vite
+# ⚡ React + Vite  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A minimal setup to get **React** running in **Vite** with **Hot Module Replacement (HMR)** and built-in **ESLint rules** for cleaner code.  
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📸 Screenshots  
 
-## Expanding the ESLint configuration
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/5972bc85-7852-4f65-9335-b0abc76260ce" alt="screenshot1" width="420" />
+  <img src="https://github.com/user-attachments/assets/297128b8-f6cc-4018-bb7b-c70d327430d7" alt="screenshot2" width="420" />
+</p>  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🚀 Features  
+
+- ⚡ Blazing fast development with **Vite**  
+- 🔥 Hot Module Replacement (HMR)  
+- 🛡️ Preconfigured **ESLint** rules  
+- 🎨 Supports both **Babel** and **SWC** for Fast Refresh  
+
+---
+
+## 🔌 Available Plugins  
+
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) → uses **Babel** for Fast Refresh  
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) → uses **SWC** for Fast Refresh  
+
+---
+
+## 🛠️ Tech Stack  
+
+- **React** – UI Library  
+- **Vite** – Dev server & bundler  
+- **ESLint** – Code linting & best practices
+
+---
+
+## ▶️ Getting Started  
+
+1. **Clone the repo**  
+   ```bash
+   git clone https://github.com/your-username/react-vite-starter.git
+   cd react-vite-starter
+   npm install
+   npm run dev
+
+Open in browser http://localhost:5173/
+
