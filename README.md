@@ -1,6 +1,9 @@
-# ⚡ React + Vite  
+# 🛒 Mini Shopping Cart – React + Vite  
 
-A minimal setup to get **React** running in **Vite** with **Hot Module Replacement (HMR)** and built-in **ESLint rules** for cleaner code.  
+A simple **shopping cart application** built with **React + Vite**.  
+Users can browse products, add/remove items from the cart, and view the total price in real-time.  
+
+This project demonstrates **React state management** with `useState`, `props`, and component-based design.  
 
 ---
 
@@ -15,25 +18,21 @@ A minimal setup to get **React** running in **Vite** with **Hot Module Replaceme
 
 ## 🚀 Features  
 
-- ⚡ Blazing fast development with **Vite**  
-- 🔥 Hot Module Replacement (HMR)  
-- 🛡️ Preconfigured **ESLint** rules  
-- 🎨 Supports both **Babel** and **SWC** for Fast Refresh  
-
----
-
-## 🔌 Available Plugins  
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) → uses **Babel** for Fast Refresh  
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) → uses **SWC** for Fast Refresh  
+- 🛍️ Browse a list of products  
+- ➕ Add items to the cart  
+- ➖ Remove items from the cart  
+- 💰 View total price in real-time  
+- 📦 (Optional enhancement) Track product **quantities** instead of duplicates  
+- 🧹 Clear the entire cart with one click  
 
 ---
 
 ## 🛠️ Tech Stack  
 
-- **React** – UI Library  
-- **Vite** – Dev server & bundler  
-- **ESLint** – Code linting & best practices
+- **React** – Component-based UI  
+- **Vite** – Lightning-fast bundler & HMR  
+- **JavaScript (ES6+)** – App logic  
+- **CSS / Inline Styles** – UI styling  
 
 ---
 
@@ -41,10 +40,10 @@ A minimal setup to get **React** running in **Vite** with **Hot Module Replaceme
 
 1. **Clone the repo**  
    ```bash
-   git clone https://github.com/your-username/react-vite-starter.git
-   cd react-vite-starter
+   git clone https://github.com/Rethabile2004/mini-shopping-cart.git
+   cd mini-shopping-cart
    npm install
    npm run dev
+Opne in browser http://localhost:5173/
 
-Open in browser http://localhost:5173/
 
