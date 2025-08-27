@@ -1,0 +1,39 @@
+.app {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    min-height: 100vh;
+    align-items: center;
+}
+
+body {
+    background-color: antiquewhite;
+}
+
+form {
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    box-shadow: 0px 4px 12px #ccc;
+    border-radius: 12px;
+    margin-bottom: 20px;
+}
+
+form input {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+form button{
+    border: none;
+    border-radius: 5px;
+    background-color: blue;
+    color:white;
+    padding: 8px 16px;
+    margin: 5px;
+    cursor: pointer;
+}
